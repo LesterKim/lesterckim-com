@@ -14,4 +14,7 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-theme = "zerm"
+theme = "vonge"
+taxonomies = [
+    { name = "tags", feed = true},
+]
