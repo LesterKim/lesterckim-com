@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 1rem 2rem;
+}
+
+.profile-photo {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+header,
+section {
+    text-align: center;
+}
+
+section {
+    max-width: 600px;
+}
+
+section p {
+    margin-top: 1rem;
+}
